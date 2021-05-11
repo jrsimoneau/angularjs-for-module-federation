@@ -13,7 +13,9 @@
   "resolutions": {
     "webpack": "^5.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "angular": "1.8.0"
+  },
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack serve --config webpack.config.js --history-api-fallback --inline --progress --open",
